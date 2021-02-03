@@ -5,9 +5,9 @@ The model was trained using Cobal notebooks[]
 
 ## Experimental Resources
 ### BembaSpeech subset dataset
-* [train](https://drive.google.com/drive/folders/1LAb04Ylj8gPIJ1p5w2AnmUgDuAuuUifO?usp=sharing) - 
-* [dev](https://drive.google.com/drive/folders/1hGo5yJJy57hg0tShGdCLjHW0aEP-1iVO?usp=sharing) -
-* [test](https://drive.google.com/drive/folders/1843to0yTW5xsLu_PIvJ_qAt9JnWIclDg?usp=sharing) -
+* [train](https://drive.google.com/drive/folders/1LAb04Ylj8gPIJ1p5w2AnmUgDuAuuUifO?usp=sharing) - training set
+* [dev](https://drive.google.com/drive/folders/1hGo5yJJy57hg0tShGdCLjHW0aEP-1iVO?usp=sharing) - development set
+* [test](https://drive.google.com/drive/folders/1843to0yTW5xsLu_PIvJ_qAt9JnWIclDg?usp=sharing) - test set
 
 ### Language Model
 * [lm.binary](https://drive.google.com/file/d/109a1poTnPpYf-ILQlsIRC44QHh_kaXBX/view?usp=sharing)
