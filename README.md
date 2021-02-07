@@ -54,21 +54,18 @@ In order generate the subsets with their associated CSV files from BembaSpeech, 
 <div class="tg-wrap"><table>
 <thead>
   <tr>
-    <th> ID </th>
     <th> LM Set</th>
-    <th>Text</th>
+    <th>Source</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td> 1 </td>
-    <td><a href="https://drive.google.com/drive/folders/1LAb04Ylj8gPIJ1p5w2AnmUgDuAuuUifO?usp=sharing">training</a></td>
-    <td><a href="https://drive.google.com/file/d/1tdUgGJnjOoI5JTNMJ5M4uDsH1eS-DgLb/view?usp=sharing">train.csv</a></td>
+    <td><a href="https://drive.google.com/drive/folders/1LAb04Ylj8gPIJ1p5w2AnmUgDuAuuUifO?usp=sharing">LM1</a></td>
+    <td>transcripts (text from train and dev sets)</td>
   </tr>
   <tr>
-    <td> 2 </td>
-    <td><a href="https://drive.google.com/drive/folders/1hGo5yJJy57hg0tShGdCLjHW0aEP-1iVO?usp=sharing">development</a></td>
-    <td><a href="https://drive.google.com/file/d/1tbHiMEV9lcNjFzb1DfcPDe0gpU9QzZEq/view?usp=sharing">dev.csv</a></td>
+    <td><a href="https://drive.google.com/drive/folders/1hGo5yJJy57hg0tShGdCLjHW0aEP-1iVO?usp=sharing">LM2</a></td>
+    <td>combination of transcripts and JW300 Bemba text</td>
   </tr>
 </tbody>
 </table></div>
