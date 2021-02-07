@@ -39,6 +39,8 @@ The data used in this project is a portion of the [BembaSpeech]() corpus consist
 </tbody>
 </table></div>
 
+In order to obtain subsets with their associated CSV files from BembaSpeech, we used the [prepare.py]() script.
+
 ### 2. Language Model
 The 5-gram LM used in this experiment was created using default parameter values of DeepSpeech v0.8.2
 * [lm.binary](https://drive.google.com/file/d/109a1poTnPpYf-ILQlsIRC44QHh_kaXBX/view?usp=sharing)
