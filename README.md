@@ -54,8 +54,8 @@ In order generate the subsets with their associated CSV files from BembaSpeech, 
 <div class="tg-wrap"><table>
 <thead>
   <tr>
-    <th> LM Set</th>
-    <th>Text Source</th>
+    <th> LM </th>
+    <th> Text Source </th>
   </tr>
 </thead>
 <tbody>
