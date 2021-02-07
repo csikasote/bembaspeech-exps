@@ -51,29 +51,7 @@ In order generate the subsets with their associated CSV files from BembaSpeech, 
 
 ### Language Model
 
-<div class="tg-wrap"><table>
-<thead>
-  <tr>
-    <th> LM </th>
-    <th> Text Source </th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td><a href="">LM1</a></td>
-    <td>transcripts (text from train and dev sets)</td>
-  </tr>
-  <tr>
-    <td><a href="">LM2</a></td>
-    <td>combination of <a href="">LM1</a> and JW300 Bemba text</td>
-  </tr>
-</tbody>
-</table></div>
-
-For the language models, we used two sources of text; The 5-gram LM used in this experiment was created using default parameter values of DeepSpeech v0.8.2
-* [lm.binary](https://drive.google.com/file/d/109a1poTnPpYf-ILQlsIRC44QHh_kaXBX/view?usp=sharing)
-* [kenlm.scorer](https://drive.google.com/file/d/10Hk7dpY89ciIF_BD8M6Y1fm__OiUQ69y/view?usp=sharing)
-* [vocabulary.txt](https://drive.google.com/file/d/109svD1u4ShzxaTWvtlXY4Bzr1gMjIreU/view?usp=sharing)
+To create the language model for our experiments, we used two sets of Bemba text; transcript (from train and dev sets) denited as [LM1]() and a combination of transcripts and JW300 denoted as [LM2](). You can follow the [LM](https://github.com/csikasote/BembaASR/blob/main/notebooks/N_gram_LM.ipynb) notebook to create the language models used in our experiments.
 
 ## Results
 <div class="tg-wrap"><table>
