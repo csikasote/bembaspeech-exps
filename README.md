@@ -34,7 +34,7 @@ The data used in this project is a portion of the [BembaSpeech]() corpus consist
     <td> 3 </td>
     <td><a href="https://drive.google.com/drive/folders/1843to0yTW5xsLu_PIvJ_qAt9JnWIclDg?usp=sharing">testing</a></td>
     <td><a href="https://drive.google.com/file/d/1tXdBlQIpMf2aAks0kzsfpClpXXmBT7bX/view?usp=sharing">test.csv</a></td>
-    <td>used for testing</td>
+    <td>Used for testing</td>
   </tr>
 </tbody>
 </table></div>
