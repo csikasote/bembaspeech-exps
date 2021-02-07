@@ -65,7 +65,7 @@ In order generate the subsets with their associated CSV files from BembaSpeech, 
   </tr>
   <tr>
     <td><a href="">LM2</a></td>
-    <td>combination of [LM1]() and JW300 Bemba text</td>
+    <td>combination of <a href="">LM1</a> and JW300 Bemba text</td>
   </tr>
 </tbody>
 </table></div>
