@@ -63,12 +63,4 @@ In the [notebooks](https://github.com/csikasote/BembaASR/tree/main/notebooks) fo
 * [ftune_5glm_trans.ipynb](https://github.com/csikasote/BembaASR/blob/main/notebooks/ftune_5glm_trans.ipynb) - used to finetune DeepSpeech\`s English pretrained model with inclusion of the 5-gram LM (from LM1 Bemba text) scorer.
 
 ## Results
-You can download the models (both acoustic and LM) that achieved the best results 54.78%.
-<div class="tg-wrap"><table>
-<tbody>
-  <tr>
-    <td><a href="https://drive.google.com/file/d/10Hk7dpY89ciIF_BD8M6Y1fm__OiUQ69y/view?usp=sharing">language Model</a></td>
-    <td><a href="https://drive.google.com/file/d/166Qo55ZI9rufZjhnBX0-93Jal9jwxxXB/view?usp=sharing">Acoustic Model</a></td>
-  </tr>
-</tbody>
-</table></div>
+You can download the models (both [acoustic](https://drive.google.com/file/d/166Qo55ZI9rufZjhnBX0-93Jal9jwxxXB/view?usp=sharing) and [scorer](https://drive.google.com/file/d/10Hk7dpY89ciIF_BD8M6Y1fm__OiUQ69y/view?usp=sharing)) that achieved the best results 54.78%.
