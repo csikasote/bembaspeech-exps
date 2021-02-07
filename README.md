@@ -1,5 +1,5 @@
 # BembaASR-Model
-This repository contains the resources (dataset, code and scripts) for reproducing experiments in the [BembaSpeech: A Speech Recognition Corpus for the Bemba Language]().
+This repository contains the resources (dataset and code) for reproducing experiments in the [BembaSpeech: A Speech Recognition Corpus for the Bemba Language]().
 
 ## Experimental Setup
 In this project we used the [DeepSpeech v0.8.2]() release for our experiments. We refer the reader to [Mozilla DeepSpeech]() for latest updates.
