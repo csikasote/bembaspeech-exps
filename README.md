@@ -5,6 +5,69 @@ This repository contains the resources (dataset, code and scripts) for reproduci
 In this project we used the [DeepSpeech v0.8.2]() release for our experiments. We refer the reader to [Mozilla DeepSpeech]() for latest updates.
 
 ## Resources
+
+
+<div class="tg-wrap"><table>
+<thead>
+  <tr>
+    <th>Component</th>
+    <th>Backend</th>
+    <th>Dependencies</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td rowspan="2">libraries</td>
+    <td>CUDA</td>
+    <td><a href="https://developer.nvidia.com/cuda-downloads">CUDA</a> &gt;= 9.2, <a href="https://github.com/nvidia/cub">CUB</a>*† (if CUDA &lt; 11)</td>
+  </tr>
+  <tr>
+    <td>CPU</td>
+    <td>A BLAS library (<a href="https://software.intel.com/content/www/us/en/develop/tools/oneapi/base-toolkit/download.html">Intel MKL</a> &gt;= 2018, OpenBLAS†, etc)</td>
+  </tr>
+  <tr>
+    <td rowspan="3">core</td>
+    <td>Any</td>
+    <td><a href="https://github.com/arrayfire/arrayfire#installation">ArrayFire</a> &gt;= 3.7.3†, an MPI library^(<a href="https://www.open-mpi.org/">OpenMPI</a>†, etc),&nbsp;&nbsp;<a href="https://github.com/USCiLab/cereal">cereal</a>*† &gt;= 1.3.0, <a href="https://github.com/nothings/stb">stb</a>*†</td>
+  </tr>
+  <tr>
+    <td>CUDA</td>
+    <td><a href="https://developer.nvidia.com/cuda-downloads">CUDA</a> &gt;= 9.2, <a href="https://developer.nvidia.com/nccl">NCCL</a>^, <a href="https://developer.nvidia.com/cuDNN">cuDNN</a></td>
+  </tr>
+  <tr>
+    <td>CPU</td>
+    <td><a href="https://github.com/oneapi-src/oneDNN">oneDNN</a>† &gt;= 2.0, <a href="https://github.com/facebookincubator/gloo">gloo</a> (<a href="https://github.com/facebookincubator/gloo/blob/01e2c2660cd43963ce1fe3e21220ac01f07d9a4b/docs/rendezvous.md#using-mpi">with MPI</a>)*^†</td>
+  </tr>
+  <tr>
+    <td>app: all </td>
+    <td>Any</td>
+    <td><a href="https://github.com/google/glog">Google Glog</a>†, <a href="https://github.com/gflags/gflags">Gflags</a>†</td>
+  </tr>
+  <tr>
+    <td>app: asr</td>
+    <td>Any</td>
+    <td><a href="https://github.com/libsndfile/libsndfile">libsndfile</a>*† &gt;= 10.0.28, a BLAS library (<a href="https://software.intel.com/content/www/us/en/develop/tools/oneapi/base-toolkit/download.html">Intel MKL</a> &gt;= 2018, OpenBLAS†, etc)</td>
+  </tr>
+  <tr>
+    <td>app: imgclass</td>
+    <td>Any</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>app: lm</td>
+    <td>Any</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td>tests</td>
+    <td>Any</td>
+    <td><a href="https://github.com/google/googletest">Google Test (gtest, with gmock)</a>*† &gt;= 1.10.0</td>
+  </tr>
+</tbody>
+</table></div>
+
+
+
 ### Dataset
 The data used in this project was obtained from the [BembaSpeech]() corpus. It consist of audio files whose size is not more than 10 seconds as per DeepSpeech input pipeline requirement.
 * [train](https://drive.google.com/drive/folders/1LAb04Ylj8gPIJ1p5w2AnmUgDuAuuUifO?usp=sharing) - training set
