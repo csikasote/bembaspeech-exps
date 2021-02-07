@@ -1,7 +1,5 @@
 # BembaASR-Model
-This repository contains the data, code and scripts used to develop the Bemba ASR model by fine-tuning a well performing DeepSpeech English pretrained model.
-
-The model was trained using Cobal notebooks[]
+This repository contains the resources (dataset, code and scripts) for reproducing experiments in the [BembaSpeech: A Speech Recognition Corpus for the Bemba Language]().
 
 ## Experimental Resources
 ### BembaSpeech
