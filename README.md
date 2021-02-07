@@ -60,12 +60,12 @@ In order generate the subsets with their associated CSV files from BembaSpeech, 
 </thead>
 <tbody>
   <tr>
-    <td><a href="https://drive.google.com/drive/folders/1LAb04Ylj8gPIJ1p5w2AnmUgDuAuuUifO?usp=sharing">LM1</a></td>
+    <td><a href="">LM1</a></td>
     <td>transcripts (text from train and dev sets)</td>
   </tr>
   <tr>
-    <td><a href="https://drive.google.com/drive/folders/1hGo5yJJy57hg0tShGdCLjHW0aEP-1iVO?usp=sharing">LM2</a></td>
-    <td>combination of transcripts and JW300 Bemba text</td>
+    <td><a href="">LM2</a></td>
+    <td>combination of [LM1]() and JW300 Bemba text</td>
   </tr>
 </tbody>
 </table></div>
