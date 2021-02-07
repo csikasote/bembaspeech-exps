@@ -4,7 +4,8 @@ This repository contains the data, code and scripts used to develop the Bemba AS
 The model was trained using Cobal notebooks[]
 
 ## Experimental Resources
-### BembaSpeech subset dataset
+### BembaSpeech
+The data used in this project was obtained from the [BembaSpeech]() corpus. It consist of acoustic whose size is not more than 10 seconds.
 * [train](https://drive.google.com/drive/folders/1LAb04Ylj8gPIJ1p5w2AnmUgDuAuuUifO?usp=sharing) - training set
 * [dev](https://drive.google.com/drive/folders/1hGo5yJJy57hg0tShGdCLjHW0aEP-1iVO?usp=sharing) - development set
 * [test](https://drive.google.com/drive/folders/1843to0yTW5xsLu_PIvJ_qAt9JnWIclDg?usp=sharing) -  - testing set
