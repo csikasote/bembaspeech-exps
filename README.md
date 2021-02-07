@@ -57,10 +57,10 @@ You can run and follow the [notebook](https://github.com/csikasote/BembaASR/blob
 
 ## Notebooks
 In the [notebooks](https://github.com/csikasote/BembaASR/tree/main/notebooks) folder, you will find notebooks used in the training of the DeepSpeech Bemba ASR model. 
-* [N_gram_LM.ipynb]() - used to create the N-gram language models
-* [base_line.ipynb]() - used to train the baseline for our experiments
-* [ft_model.ipynb]() - used to finetune DeepSpeech English pretrained model without inclusion of language model.
-* [ftune_5glm_trans.ipynb]() - used to finetune DeepSpeech\`s English pretrained model with inclusion of the 5-gram LM (from LM1 Bemba text) scorer.
+* [N_gram_LM.ipynb](https://github.com/csikasote/BembaASR/blob/main/notebooks/N_gram_LM.ipynb) - used to create the N-gram language models
+* [base_line.ipynb](https://github.com/csikasote/BembaASR/blob/main/notebooks/base_line.ipynb) - used to train the baseline for our experiments
+* [ft_model.ipynb](https://github.com/csikasote/BembaASR/blob/main/notebooks/ft_model.ipynb) - used to finetune DeepSpeech English pretrained model without inclusion of language model.
+* [ftune_5glm_trans.ipynb](https://github.com/csikasote/BembaASR/blob/main/notebooks/ftune_5glm_trans.ipynb) - used to finetune DeepSpeech\`s English pretrained model with inclusion of the 5-gram LM (from LM1 Bemba text) scorer.
 
 ## Results
 You can download the models (both acoustic and LM) that achieved the best results 54.78%.
