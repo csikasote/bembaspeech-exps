@@ -31,16 +31,6 @@ In this project we used the [DeepSpeech v0.8.2]() release for our experiments. W
     <td>Any</td>
     <td>-</td>
   </tr>
-  <tr>
-    <td>app: lm</td>
-    <td>Any</td>
-    <td>-</td>
-  </tr>
-  <tr>
-    <td>tests</td>
-    <td>Any</td>
-    <td><a href="https://github.com/google/googletest">Google Test (gtest, with gmock)</a>*† &gt;= 1.10.0</td>
-  </tr>
 </tbody>
 </table></div>
 
