@@ -75,6 +75,20 @@ For the language models, we used two sources of text; The 5-gram LM used in this
 * [kenlm.scorer](https://drive.google.com/file/d/10Hk7dpY89ciIF_BD8M6Y1fm__OiUQ69y/view?usp=sharing)
 * [vocabulary.txt](https://drive.google.com/file/d/109svD1u4ShzxaTWvtlXY4Bzr1gMjIreU/view?usp=sharing)
 
+## Results
+<div class="tg-wrap"><table>
+<tbody>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/10Hk7dpY89ciIF_BD8M6Y1fm__OiUQ69y/view?usp=sharing">language Model</a></td>
+    <td><a href="https://drive.google.com/file/d/166Qo55ZI9rufZjhnBX0-93Jal9jwxxXB/view?usp=sharing">Acoustic Model</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://drive.google.com/file/d/166Qo55ZI9rufZjhnBX0-93Jal9jwxxXB/view?usp=sharing">Acoustic Model</a></td>
+    <td>combination of <a href="">LM1</a> and JW300 Bemba text</td>
+  </tr>
+</tbody>
+</table></div>
+
 ### Acoustic Model
 * [ft_5glm_model.pbmm](https://drive.google.com/file/d/166Qo55ZI9rufZjhnBX0-93Jal9jwxxXB/view?usp=sharing)
 * [ft_5glm_model.pb](https://drive.google.com/file/d/165Azk-mOduV3DTraxZFZqBOlFhcF_NCi/view?usp=sharing)
