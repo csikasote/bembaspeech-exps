@@ -11,25 +11,25 @@ In this project we used the [DeepSpeech v0.8.2]() release for our experiments. W
 <thead>
   <tr>
     <th>Subset</th>
-    <th>CSV</th>
-    <th>Description</th>
+    <th>Associated CSV file</th>
+    <th>Definition</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td><a href="https://drive.google.com/drive/folders/1LAb04Ylj8gPIJ1p5w2AnmUgDuAuuUifO?usp=sharing">Train</a></td>
+    <td><a href="https://drive.google.com/drive/folders/1LAb04Ylj8gPIJ1p5w2AnmUgDuAuuUifO?usp=sharing">Training</a></td>
     <td><a href="https://drive.google.com/file/d/1tdUgGJnjOoI5JTNMJ5M4uDsH1eS-DgLb/view?usp=sharing">train.csv</a></td>
-    <td>Training set</td>
+    <td>Used for training</td>
   </tr>
   <tr>
-    <td><a href="https://drive.google.com/drive/folders/1hGo5yJJy57hg0tShGdCLjHW0aEP-1iVO?usp=sharing">Dev</a></td>
+    <td><a href="https://drive.google.com/drive/folders/1hGo5yJJy57hg0tShGdCLjHW0aEP-1iVO?usp=sharing">Development</a></td>
     <td><a href="https://drive.google.com/file/d/1tbHiMEV9lcNjFzb1DfcPDe0gpU9QzZEq/view?usp=sharing">dev.csv</a></td>
-    <td>Development set</td>
+    <td>Used for validation</td>
   </tr>
   <tr>
-    <td><a href="https://drive.google.com/drive/folders/1843to0yTW5xsLu_PIvJ_qAt9JnWIclDg?usp=sharing">Test</a></td>
+    <td><a href="https://drive.google.com/drive/folders/1843to0yTW5xsLu_PIvJ_qAt9JnWIclDg?usp=sharing">Testing</a></td>
     <td><a href="https://drive.google.com/file/d/1tXdBlQIpMf2aAks0kzsfpClpXXmBT7bX/view?usp=sharing">test.csv</a></td>
-    <td>Testing set</td>
+    <td>used for testing</td>
   </tr>
 </tbody>
 </table></div>
