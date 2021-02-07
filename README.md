@@ -6,7 +6,7 @@ In this project we used the [DeepSpeech v0.8.2]() release for our experiments. W
 
 ## Resources
 ### 1. Dataset
-The data used in this project is a portion of the [BembaSpeech]() corpus consisting of audio files whose size is not more than 10 seconds as per DeepSpeech input pipeline requirement.
+The data used in this project is a portion of the [BembaSpeech]() corpus consisting of audio files whose size is not more than 10 seconds as per DeepSpeech input pipeline requirement. The table below presents obtained
 
 <div class="tg-wrap"><table>
 <thead>
@@ -14,6 +14,8 @@ The data used in this project is a portion of the [BembaSpeech]() corpus consist
     <th> ID </th>
     <th>Datasets</th>
     <th>Associated CSV file</th>
+    <th>Utterances</th>
+    <th>Duration</th>
     <th>Description</th>
   </tr>
 </thead>
@@ -22,18 +24,24 @@ The data used in this project is a portion of the [BembaSpeech]() corpus consist
     <td> 1 </td>
     <td><a href="https://drive.google.com/drive/folders/1LAb04Ylj8gPIJ1p5w2AnmUgDuAuuUifO?usp=sharing">training</a></td>
     <td><a href="https://drive.google.com/file/d/1tdUgGJnjOoI5JTNMJ5M4uDsH1eS-DgLb/view?usp=sharing">train.csv</a></td>
+    <td>10200</td>
+    <td>2hrs, 30min</td>
     <td>Used for training</td>
   </tr>
   <tr>
     <td> 2 </td>
     <td><a href="https://drive.google.com/drive/folders/1hGo5yJJy57hg0tShGdCLjHW0aEP-1iVO?usp=sharing">development</a></td>
     <td><a href="https://drive.google.com/file/d/1tbHiMEV9lcNjFzb1DfcPDe0gpU9QzZEq/view?usp=sharing">dev.csv</a></td>
+    <td>1437</td>
+    <td>2hrs</td>
     <td>Used for validation</td>
   </tr>
   <tr>
     <td> 3 </td>
     <td><a href="https://drive.google.com/drive/folders/1843to0yTW5xsLu_PIvJ_qAt9JnWIclDg?usp=sharing">testing</a></td>
     <td><a href="https://drive.google.com/file/d/1tXdBlQIpMf2aAks0kzsfpClpXXmBT7bX/view?usp=sharing">test.csv</a></td>
+    <td>756</td>
+    <td>1hr, 18min</td>
     <td>Used for testing</td>
   </tr>
 </tbody>
