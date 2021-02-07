@@ -12,7 +12,7 @@ The data used in this project is a portion of the [BembaSpeech]() corpus consist
 <thead>
   <tr>
     <th> ID </th>
-    <th>Datasets</th>
+    <th>Dataset</th>
     <th>CSV file</th>
     <th>No. of Utterances</th>
     <th>Size</th>
