@@ -5,7 +5,7 @@ This repository contains the resources (dataset, code and scripts) for reproduci
 In this project we used the [DeepSpeech v0.8.2]() release for our experiments. We refer the reader to [Mozilla DeepSpeech]() for latest updates.
 
 ## Resources
-### Dataset
+* Dataset
 The data used in this project was obtained from the [BembaSpeech]() corpus. It consist of audio files whose size is not more than 10 seconds as per DeepSpeech input pipeline requirement.
 
 <div class="tg-wrap"><table>
@@ -40,7 +40,7 @@ The data used in this project was obtained from the [BembaSpeech]() corpus. It c
 </table></div>
 
 
-### Language Model
+* Language Model
 The 5-gram LM used in this experiment was created using default parameter values of DeepSpeech v0.8.2
 * [lm.binary](https://drive.google.com/file/d/109a1poTnPpYf-ILQlsIRC44QHh_kaXBX/view?usp=sharing)
 * [kenlm.scorer](https://drive.google.com/file/d/10Hk7dpY89ciIF_BD8M6Y1fm__OiUQ69y/view?usp=sharing)
