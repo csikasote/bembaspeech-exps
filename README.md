@@ -2,8 +2,8 @@
 This repository contains the resources (dataset, code and scripts) for reproducing experiments in the [BembaSpeech: A Speech Recognition Corpus for the Bemba Language]().
 
 ## Experimental Setup
-In this project we used the [DeepSpeech v0.8.2] release for our experiments. We refer the reader to [Mozilla DeepSpeech]() for latest updates.
-All the experiments were run using Google Colab pro. 
+In this project we used the [DeepSpeech v0.8.2]() release for our experiments. We refer the reader to [Mozilla DeepSpeech]() for latest updates.
+
 ## Resources
 ### Dataset
 The data used in this project was obtained from the [BembaSpeech]() corpus. It consist of audio files whose size is not more than 10 seconds as per DeepSpeech input pipeline requirement.
