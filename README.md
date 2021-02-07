@@ -27,8 +27,8 @@ In this project we used the [DeepSpeech v0.8.2]() release for our experiments. W
     <td>Development set</td>
   </tr>
   <tr>
-    <td><a href="https://drive.google.com/drive/folders/1843to0yTW5xsLu_PIvJ_qAt9JnWIclDg?usp=sharing">Dev</a></td>
-    <td><a href="https://drive.google.com/file/d/1tXdBlQIpMf2aAks0kzsfpClpXXmBT7bX/view?usp=sharing">dev.csv</a></td>
+    <td><a href="https://drive.google.com/drive/folders/1843to0yTW5xsLu_PIvJ_qAt9JnWIclDg?usp=sharing">Test</a></td>
+    <td><a href="https://drive.google.com/file/d/1tXdBlQIpMf2aAks0kzsfpClpXXmBT7bX/view?usp=sharing">test.csv</a></td>
     <td>Testing set</td>
   </tr>
 </tbody>
