@@ -10,9 +10,9 @@ In this project we used the [DeepSpeech v0.8.2]() release for our experiments. W
 <div class="tg-wrap"><table>
 <thead>
   <tr>
-    <th>Component</th>
-    <th>Backend</th>
-    <th>Dependencies</th>
+    <th>Subset</th>
+    <th>CSV</th>
+    <th>Description</th>
   </tr>
 </thead>
 <tbody>
