@@ -55,7 +55,7 @@ In order generate the subsets with their associated CSV files from BembaSpeech, 
 <thead>
   <tr>
     <th> LM Set</th>
-    <th>Source</th>
+    <th>Text Source</th>
   </tr>
 </thead>
 <tbody>
