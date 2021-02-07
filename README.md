@@ -13,9 +13,9 @@ The data used in this project is a portion of the [BembaSpeech]() corpus consist
   <tr>
     <th> ID </th>
     <th>Datasets</th>
-    <th>Associated CSV file</th>
-    <th>Utterances</th>
-    <th>Duration</th>
+    <th>CSV file</th>
+    <th>No. of Utterances</th>
+    <th>Size</th>
     <th>Description</th>
   </tr>
 </thead>
