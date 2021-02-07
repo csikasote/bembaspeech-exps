@@ -51,9 +51,19 @@ In order generate the subsets with their associated CSV files from BembaSpeech, 
 
 ### Language Model
 
-To create the language model for our experiments, we used two sets of Bemba text; transcript (from train and dev sets) denited as [LM1]() and a combination of transcripts and JW300 denoted as [LM2](). You can follow the [LM](https://github.com/csikasote/BembaASR/blob/main/notebooks/N_gram_LM.ipynb) notebook to create the language models used in our experiments.
+To create the language model for our experiments, we used two sets of Bemba text; transcript (from train and dev sets) denited as [LM1]() and a combination of transcripts and JW300 denoted as [LM2](). 
+
+You can run and follow the [notebook](https://github.com/csikasote/BembaASR/blob/main/notebooks/N_gram_LM.ipynb) which provides the step by step process of creating different N-gram language models using KenLM tool.
+
+## Training
+In the [notebooks](https://github.com/csikasote/BembaASR/tree/main/notebooks) folder, you will find notebooks used in the training of the DeepSpeech Bemba ASR model. 
+* [N_gram_LM.ipynb]() - used to create the N-gram language models
+* [base_line.ipynb]() - used to train the baseline for our experiments
+* [ft_model.ipynb]() - used to finetune DeepSpeech English pretrained model without inclusion of language model.
+* [ftune_5glm_trans.ipynb]() - used to finetune DeepSpeech\`s English pretrained model with inclusion of the 5-gram LM (from LM1 Bemba text) scorer.
 
 ## Results
+You can download the models (both acoustic and LM) that achieved the best results 54.78%.
 <div class="tg-wrap"><table>
 <tbody>
   <tr>
