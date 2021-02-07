@@ -17,19 +17,19 @@ In this project we used the [DeepSpeech v0.8.2]() release for our experiments. W
 </thead>
 <tbody>
   <tr>
-    <td>app: all </td>
-    <td>Any</td>
-    <td><a href="https://github.com/google/glog">Google Glog</a>†, <a href="https://github.com/gflags/gflags">Gflags</a>†</td>
+    <td>[train](https://drive.google.com/drive/folders/1LAb04Ylj8gPIJ1p5w2AnmUgDuAuuUifO?usp=sharing)</td>
+    <td>[train.csv](https://drive.google.com/file/d/1tdUgGJnjOoI5JTNMJ5M4uDsH1eS-DgLb/view?usp=sharing)</td>
+    <td>Training set</td>
   </tr>
   <tr>
-    <td>app: asr</td>
-    <td>Any</td>
-    <td><a href="https://github.com/libsndfile/libsndfile">libsndfile</a>*† &gt;= 10.0.28, a BLAS library (<a href="https://software.intel.com/content/www/us/en/develop/tools/oneapi/base-toolkit/download.html">Intel MKL</a> &gt;= 2018, OpenBLAS†, etc)</td>
+    <td>[dev](https://drive.google.com/drive/folders/1hGo5yJJy57hg0tShGdCLjHW0aEP-1iVO?usp=sharing)</td>
+    <td>[dev.csv](https://drive.google.com/file/d/1tbHiMEV9lcNjFzb1DfcPDe0gpU9QzZEq/view?usp=sharing)</td>
+    <td>Development set</td>
   </tr>
   <tr>
-    <td>app: imgclass</td>
-    <td>Any</td>
-    <td>-</td>
+    <td>[test](https://drive.google.com/drive/folders/1843to0yTW5xsLu_PIvJ_qAt9JnWIclDg?usp=sharing)</td>
+    <td>[test.csv](https://drive.google.com/file/d/1tXdBlQIpMf2aAks0kzsfpClpXXmBT7bX/view?usp=sharing)</td>
+    <td>Testing set</td>
   </tr>
 </tbody>
 </table></div>
