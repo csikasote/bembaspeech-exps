@@ -6,7 +6,7 @@ In this project we used the [DeepSpeech v0.8.2]() release for our experiments. W
 
 ## Resources
 ### 1. Dataset
-The data used in this project is a portion of the [BembaSpeech]() corpus. It consist of audio files whose size is not more than 10 seconds as per DeepSpeech input pipeline requirement.
+The data used in this project is a portion of the [BembaSpeech]() corpus consisting of audio files whose size is not more than 10 seconds as per DeepSpeech input pipeline requirement.
 
 <div class="tg-wrap"><table>
 <thead>
