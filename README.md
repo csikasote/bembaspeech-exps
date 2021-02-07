@@ -1,14 +1,17 @@
 # BembaASR-Model
 This repository contains the resources (dataset, code and scripts) for reproducing experiments in the [BembaSpeech: A Speech Recognition Corpus for the Bemba Language]().
 
-## Experimental Resources
-### BembaSpeech
+## Experimental Setup
+In this project we used the [DeepSpeech v0.8.2] release for our experiments. We refer the reader to [Mozilla DeepSpeech]() for latest updates.
+All the experiments were run using Google Colab pro. 
+## Resources
+### Dataset
 The data used in this project was obtained from the [BembaSpeech]() corpus. It consist of audio files whose size is not more than 10 seconds as per DeepSpeech input pipeline requirement.
 * [train](https://drive.google.com/drive/folders/1LAb04Ylj8gPIJ1p5w2AnmUgDuAuuUifO?usp=sharing) - training set
 * [dev](https://drive.google.com/drive/folders/1hGo5yJJy57hg0tShGdCLjHW0aEP-1iVO?usp=sharing) - development set
-* [test](https://drive.google.com/drive/folders/1843to0yTW5xsLu_PIvJ_qAt9JnWIclDg?usp=sharing) -  - testing set
+* [test](https://drive.google.com/drive/folders/1843to0yTW5xsLu_PIvJ_qAt9JnWIclDg?usp=sharing) - testing set
 
-The required csv files associated with the above listed subsets are:
+The following mandatory csv files associated with the above listed BembaSpeech subsets were generated using the []() script.
 
 * [train.csv](https://drive.google.com/file/d/1tdUgGJnjOoI5JTNMJ5M4uDsH1eS-DgLb/view?usp=sharing)
 * [dev.csv](https://drive.google.com/file/d/1tbHiMEV9lcNjFzb1DfcPDe0gpU9QzZEq/view?usp=sharing)
