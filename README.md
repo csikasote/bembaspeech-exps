@@ -55,7 +55,7 @@ To create the language model for our experiments, we used two sets of Bemba text
 
 You can run and follow the [notebook](https://github.com/csikasote/BembaASR/blob/main/notebooks/N_gram_LM.ipynb) which provides the step by step process of creating different N-gram language models using KenLM tool.
 
-## Training
+## Notebooks
 In the [notebooks](https://github.com/csikasote/BembaASR/tree/main/notebooks) folder, you will find notebooks used in the training of the DeepSpeech Bemba ASR model. 
 * [N_gram_LM.ipynb]() - used to create the N-gram language models
 * [base_line.ipynb]() - used to train the baseline for our experiments
