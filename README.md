@@ -5,7 +5,7 @@ This repository contains the resources (dataset and code) for reproducing experi
 In this project we used the [DeepSpeech v0.8.2]() release for our experiments. We refer the reader to [Mozilla DeepSpeech]() for latest updates.
 
 ## Resources
-### 1. Dataset
+### Dataset
 The data used in this project is a portion of the [BembaSpeech]() corpus consisting of audio files whose size is not more than 10 seconds as per DeepSpeech input pipeline requirement.
 
 <div class="tg-wrap"><table>
@@ -49,7 +49,7 @@ The data used in this project is a portion of the [BembaSpeech]() corpus consist
 
 In order generate the subsets with their associated CSV files from BembaSpeech, we used the [prepare.py]() script.
 
-### 2. Language Model
+### Language Model
 
 <div class="tg-wrap"><table>
 <thead>
