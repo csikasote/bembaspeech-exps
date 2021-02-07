@@ -5,7 +5,8 @@ This repository contains the resources (dataset, code and scripts) for reproduci
 In this project we used the [DeepSpeech v0.8.2]() release for our experiments. We refer the reader to [Mozilla DeepSpeech]() for latest updates.
 
 ## Resources
-
+### Dataset
+The data used in this project was obtained from the [BembaSpeech]() corpus. It consist of audio files whose size is not more than 10 seconds as per DeepSpeech input pipeline requirement.
 
 <div class="tg-wrap"><table>
 <thead>
@@ -34,19 +35,6 @@ In this project we used the [DeepSpeech v0.8.2]() release for our experiments. W
 </tbody>
 </table></div>
 
-
-
-### Dataset
-The data used in this project was obtained from the [BembaSpeech]() corpus. It consist of audio files whose size is not more than 10 seconds as per DeepSpeech input pipeline requirement.
-* [train](https://drive.google.com/drive/folders/1LAb04Ylj8gPIJ1p5w2AnmUgDuAuuUifO?usp=sharing) - training set
-* [dev](https://drive.google.com/drive/folders/1hGo5yJJy57hg0tShGdCLjHW0aEP-1iVO?usp=sharing) - development set
-* [test](https://drive.google.com/drive/folders/1843to0yTW5xsLu_PIvJ_qAt9JnWIclDg?usp=sharing) - testing set
-
-The following mandatory csv files associated with the above listed BembaSpeech subsets were generated using the []() script.
-
-* [train.csv](https://drive.google.com/file/d/1tdUgGJnjOoI5JTNMJ5M4uDsH1eS-DgLb/view?usp=sharing)
-* [dev.csv](https://drive.google.com/file/d/1tbHiMEV9lcNjFzb1DfcPDe0gpU9QzZEq/view?usp=sharing)
-* [test.csv](https://drive.google.com/file/d/1tXdBlQIpMf2aAks0kzsfpClpXXmBT7bX/view?usp=sharing)
 
 ### Language Model
 The 5-gram LM used in this experiment was created using default parameter values of DeepSpeech v0.8.2
