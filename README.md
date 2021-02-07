@@ -11,6 +11,7 @@ The data used in this project was obtained from the [BembaSpeech]() corpus. It c
 <div class="tg-wrap"><table>
 <thead>
   <tr>
+    <th> ID </th>
     <th>Subset</th>
     <th>Associated CSV file</th>
     <th>Definition</th>
@@ -18,16 +19,19 @@ The data used in this project was obtained from the [BembaSpeech]() corpus. It c
 </thead>
 <tbody>
   <tr>
+    <td> 1 </td>
     <td><a href="https://drive.google.com/drive/folders/1LAb04Ylj8gPIJ1p5w2AnmUgDuAuuUifO?usp=sharing">Training</a></td>
     <td><a href="https://drive.google.com/file/d/1tdUgGJnjOoI5JTNMJ5M4uDsH1eS-DgLb/view?usp=sharing">train.csv</a></td>
     <td>Used for training</td>
   </tr>
   <tr>
+    <td> 2 </td>
     <td><a href="https://drive.google.com/drive/folders/1hGo5yJJy57hg0tShGdCLjHW0aEP-1iVO?usp=sharing">Development</a></td>
     <td><a href="https://drive.google.com/file/d/1tbHiMEV9lcNjFzb1DfcPDe0gpU9QzZEq/view?usp=sharing">dev.csv</a></td>
     <td>Used for validation</td>
   </tr>
   <tr>
+    <td> 3 </td>
     <td><a href="https://drive.google.com/drive/folders/1843to0yTW5xsLu_PIvJ_qAt9JnWIclDg?usp=sharing">Testing</a></td>
     <td><a href="https://drive.google.com/file/d/1tXdBlQIpMf2aAks0kzsfpClpXXmBT7bX/view?usp=sharing">test.csv</a></td>
     <td>used for testing</td>
