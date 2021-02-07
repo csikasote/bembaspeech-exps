@@ -12,7 +12,7 @@ The data used in this project was obtained from the [BembaSpeech]() corpus. It c
 <thead>
   <tr>
     <th> ID </th>
-    <th>Subset</th>
+    <th>Datasets</th>
     <th>Associated CSV file</th>
     <th>Definition</th>
   </tr>
@@ -38,7 +38,6 @@ The data used in this project was obtained from the [BembaSpeech]() corpus. It c
   </tr>
 </tbody>
 </table></div>
-
 
 ### Language Model
 The 5-gram LM used in this experiment was created using default parameter values of DeepSpeech v0.8.2
