@@ -17,8 +17,8 @@ In this project we used the [DeepSpeech v0.8.2]() release for our experiments. W
 </thead>
 <tbody>
   <tr>
-    <td>[train](https://drive.google.com/drive/folders/1LAb04Ylj8gPIJ1p5w2AnmUgDuAuuUifO?usp=sharing)</td>
-    <td>[train.csv](https://drive.google.com/file/d/1tdUgGJnjOoI5JTNMJ5M4uDsH1eS-DgLb/view?usp=sharing)</td>
+    <td><a href="https://drive.google.com/drive/folders/1LAb04Ylj8gPIJ1p5w2AnmUgDuAuuUifO?usp=sharing">Train</a></td>
+    <td><a href="https://drive.google.com/file/d/1tdUgGJnjOoI5JTNMJ5M4uDsH1eS-DgLb/view?usp=sharing">train.csv</a></td>
     <td>Training set</td>
   </tr>
   <tr>
