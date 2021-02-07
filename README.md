@@ -22,13 +22,13 @@ In this project we used the [DeepSpeech v0.8.2]() release for our experiments. W
     <td>Training set</td>
   </tr>
   <tr>
-    <td>[dev](https://drive.google.com/drive/folders/1hGo5yJJy57hg0tShGdCLjHW0aEP-1iVO?usp=sharing)</td>
-    <td>[dev.csv](https://drive.google.com/file/d/1tbHiMEV9lcNjFzb1DfcPDe0gpU9QzZEq/view?usp=sharing)</td>
+    <td><a href="https://drive.google.com/drive/folders/1hGo5yJJy57hg0tShGdCLjHW0aEP-1iVO?usp=sharing">Dev</a></td>
+    <td><a href="https://drive.google.com/file/d/1tbHiMEV9lcNjFzb1DfcPDe0gpU9QzZEq/view?usp=sharing">dev.csv</a></td>
     <td>Development set</td>
   </tr>
   <tr>
-    <td>[test](https://drive.google.com/drive/folders/1843to0yTW5xsLu_PIvJ_qAt9JnWIclDg?usp=sharing)</td>
-    <td>[test.csv](https://drive.google.com/file/d/1tXdBlQIpMf2aAks0kzsfpClpXXmBT7bX/view?usp=sharing)</td>
+    <td><a href="https://drive.google.com/drive/folders/1843to0yTW5xsLu_PIvJ_qAt9JnWIclDg?usp=sharing">Dev</a></td>
+    <td><a href="https://drive.google.com/file/d/1tXdBlQIpMf2aAks0kzsfpClpXXmBT7bX/view?usp=sharing">dev.csv</a></td>
     <td>Testing set</td>
   </tr>
 </tbody>
