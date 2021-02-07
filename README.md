@@ -50,7 +50,30 @@ The data used in this project is a portion of the [BembaSpeech]() corpus consist
 In order generate the subsets with their associated CSV files from BembaSpeech, we used the [prepare.py]() script.
 
 ### 2. Language Model
-The 5-gram LM used in this experiment was created using default parameter values of DeepSpeech v0.8.2
+
+<div class="tg-wrap"><table>
+<thead>
+  <tr>
+    <th> ID </th>
+    <th> LM Set</th>
+    <th>Text</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td> 1 </td>
+    <td><a href="https://drive.google.com/drive/folders/1LAb04Ylj8gPIJ1p5w2AnmUgDuAuuUifO?usp=sharing">training</a></td>
+    <td><a href="https://drive.google.com/file/d/1tdUgGJnjOoI5JTNMJ5M4uDsH1eS-DgLb/view?usp=sharing">train.csv</a></td>
+  </tr>
+  <tr>
+    <td> 2 </td>
+    <td><a href="https://drive.google.com/drive/folders/1hGo5yJJy57hg0tShGdCLjHW0aEP-1iVO?usp=sharing">development</a></td>
+    <td><a href="https://drive.google.com/file/d/1tbHiMEV9lcNjFzb1DfcPDe0gpU9QzZEq/view?usp=sharing">dev.csv</a></td>
+  </tr>
+</tbody>
+</table></div>
+
+For the language models, we used two sources of text; The 5-gram LM used in this experiment was created using default parameter values of DeepSpeech v0.8.2
 * [lm.binary](https://drive.google.com/file/d/109a1poTnPpYf-ILQlsIRC44QHh_kaXBX/view?usp=sharing)
 * [kenlm.scorer](https://drive.google.com/file/d/10Hk7dpY89ciIF_BD8M6Y1fm__OiUQ69y/view?usp=sharing)
 * [vocabulary.txt](https://drive.google.com/file/d/109svD1u4ShzxaTWvtlXY4Bzr1gMjIreU/view?usp=sharing)
