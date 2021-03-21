@@ -1,6 +1,22 @@
 # DeepSpeech-BembaASR-Model
 This repository contains resources (dataset and notebooks) for reproducing experiments in the <a href="https://arxiv.org/pdf/2102.04889.pdf">BembaSpeech: A Speech Recognition Corpus for the Bemba Language</a>.
 
+## Citation
+
+Please consider citing as follows if you use part of the code or data in your work or project:
+
+    @inproceedings{sikasote-anastasopoulos21bembaspeech,
+        abstract = {We present a preprocessed, ready-to-use automatic speech recognition corpus, BembaSpeech, consisting over 24 hours of read speech in the Bemba language, a written but low-resourced language spoken by over 30% of the population in Zambia. To assess its usefulness for training and testing ASR systems for Bemba, we train an end-to-end Bemba ASR system by fine-tuning a pre-trained DeepSpeech English model on the training portion of the BembaSpeech corpus. Our best model achieves a word error rate (WER) of 54.78%. The results show that the corpus can be used for building ASR systems for Bemba.},
+        title = {BembaSpeech: A Speech Recognition Corpus for the Bemba Language},
+        author = {Sikasote, Claytone and Anastasopoulos, Antonios},
+        booktitle = {Proceedings of AfricaNLP},
+        address = {Online},
+        month = {April},
+        year = {2021},
+        url = {https://arxiv.org/pdf/2102.04889.pdf}
+    }
+
+
 ## Experimental Setup
 In this project we used the [DeepSpeech v0.8.2](https://deepspeech.readthedocs.io/en/v0.8.2/) release for our experiments. We refer the reader to [Mozilla DeepSpeech](https://github.com/mozilla/DeepSpeech) for latest updates.
 
@@ -52,22 +68,6 @@ In order generate the subsets with their associated CSV files from BembaSpeech, 
 ### Language Model
 
 To create the language model for our experiments, we used two sets of Bemba text; transcript (from train and dev sets) denited as [LM1]() and a combination of transcripts and JW300 denoted as [LM2](). 
-
-## Citation
-
-Please consider citing as follows if you use part of the code or data in your work or project:
-
-    @inproceedings{sikasote-anastasopoulos21bembaspeech,
-        abstract = {We present a preprocessed, ready-to-use automatic speech recognition corpus, BembaSpeech, consisting over 24 hours of read speech in the Bemba language, a written but low-resourced language spoken by over 30% of the population in Zambia. To assess its usefulness for training and testing ASR systems for Bemba, we train an end-to-end Bemba ASR system by fine-tuning a pre-trained DeepSpeech English model on the training portion of the BembaSpeech corpus. Our best model achieves a word error rate (WER) of 54.78%. The results show that the corpus can be used for building ASR systems for Bemba.},
-        title = {BembaSpeech: A Speech Recognition Corpus for the Bemba Language},
-        author = {Sikasote, Claytone and Anastasopoulos, Antonios},
-        booktitle = {Proceedings of AfricaNLP},
-        address = {Online},
-        month = {April},
-        year = {2021},
-        url = {https://arxiv.org/pdf/2102.04889.pdf}
-    }
-
 
 You can run and follow the [notebook](https://github.com/csikasote/BembaASR/blob/main/notebooks/N_gram_LM.ipynb) which provides the step by step process of creating different N-gram language models using KenLM tool.
 
