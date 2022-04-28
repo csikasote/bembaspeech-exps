@@ -63,8 +63,6 @@ The data used in this project is a portion of the [BembaSpeech](https://github.c
 </tbody>
 </table></div>
 
-In order generate the subsets with their associated CSV files from BembaSpeech, we used the [prepare.py]() script.
-
 ### Language Model
 
 To create the language model for our experiments, we used two sets of Bemba text; transcript (from train and dev sets) denited as [LM1]() and a combination of transcripts and JW300 denoted as [LM2](). 
