@@ -1,4 +1,4 @@
-# DeepSpeech-BembaASR-Model
+# DeepSpeech-Bemba-Model
 This repository contains resources (dataset and notebooks) for reproducing experiments in the <a href="https://arxiv.org/pdf/2102.04889.pdf">BembaSpeech: A Speech Recognition Corpus for the Bemba Language</a>.
 
 ## Citation
