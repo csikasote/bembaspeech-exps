@@ -77,3 +77,8 @@ In the [notebooks](https://github.com/csikasote/BembaASR/tree/main/notebooks) fo
 
 ### Deepspeech Bemba Models
 You can download the models (both [acoustic](https://drive.google.com/file/d/166Qo55ZI9rufZjhnBX0-93Jal9jwxxXB/view?usp=sharing) and [scorer](https://drive.google.com/file/d/10Hk7dpY89ciIF_BD8M6Y1fm__OiUQ69y/view?usp=sharing)) that achieved the best results 54.78%.
+
+
+## 1. Using SSL Models [XLSR] Experiments
+
+The code used to finetune the XLSR models on the BembaSpeech can be found [HERE](https://github.com/csikasote/xls-r-bemba-exps).
